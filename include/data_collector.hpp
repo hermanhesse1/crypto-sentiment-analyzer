@@ -11,9 +11,9 @@
 #include "config_manager.hpp"
 
 struct MarketData {
-    std::string source;     // "reddit", "twitter", "news"
-    std::string symbol;     // Crypto symbol
-    std::string text;       // Content
+    std::string source;     
+    std::string symbol;     
+    std::string text;       
     std::chrono::system_clock::time_point timestamp;
 };
 
